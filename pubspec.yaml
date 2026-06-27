@@ -1,0 +1,35 @@
+name: signature_verification_app
+description: Aplikasi Identifikasi dan Verifikasi Tanda Tangan
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  image_picker: ^1.0.4
+  camera: ^0.11.3  # Tambahkan package camera di sini
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  intl: ^0.18.1  # Untuk formatting
+  permission_handler: ^11.0.1
+  url_launcher: ^6.1.11
+  package_info_plus: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
